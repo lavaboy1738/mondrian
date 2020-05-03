@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: calc(50% - 300px);
+    left: calc(50% - 300px);
+}
+
+.title{
+    margin: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+}
+
+.canvas{
+    background-color: black;
+    height: 335px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    border: 7px solid black;
+}
+
+.block{
+    background-color: white;
+}
+
+.first-row{
+    height: 65px;
+}
+
+.first-column{
+    width: 105px;
+}
+
+.second-row{
+    height: 105px;
+}
+
+.second-column{
+    width: 205px;
+}
+
+.third-row{
+    height: 65px;
+}
+
+.third-column{
+    width: 45px;
+}
+
+.fourth-row{
+    height: 65px;
+}
+
+.fourth-column{
+    width: 145px;
+}
+
+.fifth-column{
+    width: 60px;
+}
+
+
+.instructions{
+    margin: 20px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.color-wrapper{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.color{
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 50%;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+.white{
+    background-color: white;
+}
+
+a{
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
+}
