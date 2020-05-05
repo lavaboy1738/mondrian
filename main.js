@@ -21,17 +21,21 @@ const App = (()=>{
         }
     }
 
-    const colorListener = (item) =>{
-        item.addEventListener("click", selected)
-    }
+    // const colorListener = (item) =>{
+    //     item.addEventListener("click", selected)
+    // }
 
-    const blockListner = (item) =>{
-        item.addEventListener("click", setColor)
-    }
+    // const blockListner = (item) =>{
+    //     item.addEventListener("click", setColor)
+    // }
 
     const listners = () =>{
-        colors.forEach(colorListener);
-        blocks.forEach(blockListner);
+        colors.forEach((element) =>{
+            element.addEventListener("click", selected)
+        });
+        blocks.forEach((element) =>{
+            element.addEventListener("click", setColor)
+        });
     }
 
     return{
